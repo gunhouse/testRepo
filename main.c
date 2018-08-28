@@ -2,6 +2,7 @@
 #include <string.h>
 
 // Buffer Overflow?
+// Not good
 int main(int argc, char** argv){
 	char buf[100];
 	strcpy(buf, argv[1]);
